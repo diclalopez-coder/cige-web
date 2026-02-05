@@ -13,7 +13,6 @@ import {
   MapPin,
   Users,
   Check,
-  ChevronRight,
   ChevronDown,
   Clock,
   Award,
@@ -72,20 +71,32 @@ const COLORS = {
   card: "rgba(255,255,255,0.85)",
 };
 
+// ✅ Framer Motion Variants (TS-friendly)
 const fadeInUp = {
   hidden: { opacity: 0, y: 18 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.55, ease: "easeOut" } },
-};
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.55, ease: [0.16, 1, 0.3, 1] }, // 👈 en vez de "easeOut"
+  },
+} as const;
 
 const stagger = {
   hidden: {},
-  visible: { transition: { staggerChildren: 0.08 } },
-};
+  visible: {
+    transition: { staggerChildren: 0.08 },
+  },
+} as const;
 
 const softIn = {
   hidden: { opacity: 0, scale: 0.985 },
-  visible: { opacity: 1, scale: 1, transition: { duration: 0.5, ease: "easeOut" } },
-};
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] },
+  },
+} as const;
+
 
 const hoverCard =
   "transition-all duration-200 hover:-translate-y-[2px] hover:scale-[1.01] hover:shadow-[0_14px_40px_rgba(2,6,23,0.12)]";
