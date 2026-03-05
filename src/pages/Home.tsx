@@ -126,7 +126,20 @@ const speakers: Speaker[] = [
   { name: "Alex Silie", country: "Costa Rica", topic: "Control y CEO", linkedin: "https://www.linkedin.com/in/username" },
   { name: "Luis Mellado", country: "Colombia", topic: "Fraude Empresarial", linkedin: "https://www.linkedin.com/in/username" },
   { name: "Juan José Acuña", country: "Costa Rica", topic: "Alta Dirección", linkedin: "https://www.linkedin.com/in/username" },
-  { name: "Ariella Pepén", country: "República Dominicana", topic: "Gestión de Riesgos GRC", linkedin: "https://www.linkedin.com/in/username" },
+  { name: "Ariella Pepén", country: "República Dominicana", topic: "Gestión de Riesgos GRC", linkedin: "https://www.linkedin.com/in/username" }, {
+    name: "Katia Morales",
+    country: "República Dominicana",
+    topic:
+      "Confianza Empresarial en la Era Digital: Compliance, IA y Transparencia como Ejes Estratégicos",
+    linkedin: "https://www.linkedin.com/in/username",
+  },
+  {
+    name: "Gustavo A. de los Santos Coll",
+    country: "República Dominicana",
+    topic:
+      "Prevención legal estratégica y gobernanza empresarial en la era de los desafíos globales",
+    linkedin: "https://www.linkedin.com/in/username",
+  },
 ];
 
 const agenda = [
