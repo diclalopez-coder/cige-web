@@ -148,24 +148,87 @@ const agenda = [
     date: "26 de Marzo",
     title: "Bienvenida & Apertura",
     events: [
-      { time: "6:30 pm - 7:00 pm", title: "Registro y acreditación", desc: "Centro de Convenciones" },
-      { time: "7:00 pm - 7:20 pm", title: "Ceremonia de apertura", desc: "Palabras del Comité Organizador y patrocinadores" },
-      { time: "7:20 pm - 9:00 pm", title: "Cena de Bienvenida", desc: '"Conectando Voluntades"' },
+      {
+        time: "6:30 pm - 7:00 pm",
+        title: "Registro y acreditación",
+        desc: "Centro de Convenciones",
+      },
+      {
+        time: "7:00 pm - 7:20 pm",
+        title: "Ceremonia de apertura",
+        desc: "Palabras del Comité Organizador y patrocinadores. Presentación de expositores invitados",
+      },
+      {
+        time: "7:20 pm - 9:00 pm",
+        title: "Cena de Bienvenida “Conectando Voluntades”",
+        desc: "",
+      },
     ],
   },
   {
     day: "Viernes 27",
     date: "27 de Marzo",
-    title: "Programa Completo",
+    title: "Programa",
     events: [
-      { time: "9:00 - 9:45", title: "Alta Dirección, Cultura y Liderazgo", desc: "Juan José Acuña, Costa Rica" },
-      { time: "9:45 - 10:45", title: "PMO Ágil de Riesgo: S&OP + Continuidad", desc: "Wilmer Terrero, Rep. Dominicana" },
-      { time: "11:00 - 12:00", title: "Estrategia Competitiva e IA Aplicada", desc: "Andrés Mauricio Castro, Colombia" },
-      { time: "1:15 - 2:15", title: "Ventas de Alto Impacto", desc: "Storytelling de valor y social selling" },
-      { time: "2:15 - 3:00", title: "Compras con Integridad ESG", desc: "Yleana Lazala, Rep. Dominicana" },
-      { time: "3:00 - 3:45", title: "Gestión de Riesgos y Control Interno GRC", desc: "Ariella Pepén, Rep. Dominicana" },
-      { time: "3:45 - 4:30", title: "Fraude Empresarial", desc: "Luis Mellado, Colombia" },
-      { time: "4:30 - 5:00", title: "Mesa Redonda 360°", desc: "Federico M. Santos, Colombia" },
+      {
+        time: "9:00 - 9:15",
+        title: "Apertura del día. Objetivos y dinámica de trabajo.",
+        desc: "",
+      },
+      {
+        time: "9:15 - 10:00",
+        title:
+          "Confianza Empresarial en la Era Digital: Compliance, IA y Transparencia como Ejes Estratégicos.",
+        desc: "Katia Morales, República Dominicana",
+      },
+      {
+        time: "10:00 - 11:00",
+        title:
+          "Importancia del Personal Branding o Marca Personal y su Impacto en la reputación de las empresas.",
+        desc: "Milca Peguero, República Dominicana",
+      },
+      {
+        time: "11:00 - 11:30",
+        title: "Break profesional (15’)",
+        desc: "",
+      },
+      {
+        time: "11:30 - 12:30",
+        title: "Estrategia Competitiva e IA Aplicada al Negocio.",
+        desc: "Roadmap de IA en 90 días (ventas, servicio, operaciones, control), Gobierno de datos, ROI y adopción - Ing. Andrés Mauricio Castro, Colombia",
+      },
+      {
+        time: "12:30 - 2:00",
+        title: "Almuerzo",
+        desc: "",
+      },
+      {
+        time: "2:00 - 2:45",
+        title: "Ventas de Alto Impacto y Motor Comercial.",
+        desc: "Storytelling de valor, social selling, cierres y upsell",
+      },
+      {
+        time: "2:45 - 3:30",
+        title: "Compras y Contrataciones con Integridad (ESG, Inclusión, Transparencia)",
+        desc: "Checklist ESG e inclusivo, trazabilidad y conflicto de interés - Lic. Yliana Lazara, República Dominicana",
+      },
+      {
+        time: "3:30 - 4:15",
+        title:
+          "Gestión de Riesgos, Control Interno y Auditoría Interna (GRC)",
+        desc: "ERM, KRIs, COSO y diseño de controles clave por proceso. Ariella Pepén, RD",
+      },
+      {
+        time: "4:15 - 5:15",
+        title:
+          "Cuando el Fraude se Convierte en Socio: La Verdad detrás de las Pérdidas Empresariales",
+        desc: "Luis Mellado, Colombia",
+      },
+      {
+        time: "5:15 - 5:30",
+        title: "Mesa Redonda 360°",
+        desc: "Debate guiado con todos los expositores y participación del público",
+      },
     ],
   },
   {
@@ -173,13 +236,50 @@ const agenda = [
     date: "28 de Marzo",
     title: "Programa Académico",
     events: [
-      { time: "8:30 - 9:15", title: "Cultura Preventiva", desc: "Carolina Saldarriaga, Colombia" },
-      { time: "9:15 - 10:00", title: "Cibercrimen Real", desc: "Armando Díaz, Rep. Dominicana" },
-      { time: "10:15 - 11:00", title: "Control y Alertas para el CEO", desc: "Alex Silie, Costa Rica" },
-      { time: "11:00 - 12:00", title: "Ciberseguridad ISO 27001 y COBIT", desc: "Luis Morel, Rep. Dominicana" },
-      { time: "12:00 - 1:00", title: "Personal Branding y Marca Personal", desc: "Milca Peguero, Rep. Dominicana" },
-      { time: "1:00 pm", title: "Clausura y brindis", desc: "Reconocimientos y próximos pasos" },
-      { time: "1:30 pm", title: "Almuerzo networking libre", desc: "" },
+      {
+        time: "08:30",
+        title:
+          "Gestión de riesgos y continuidad de proyectos: una perspectiva desde la gestión estratégica",
+        desc: "Carolina Saldarriaga, Colombia",
+      },
+      {
+        time: "09:15",
+        title: "Cibercrimen Real: del modus operandi a la contención",
+        desc: "Ing. Armando Díaz, República Dominicana",
+      },
+      {
+        time: "10:00",
+        title: "Break profesional (15’)",
+        desc: "",
+      },
+      {
+        time: "10:15",
+        title:
+          "Menos ruido, más control: cómo convertir 700+ alertas en acciones que el CEO entiende",
+        desc: "Alex Siles, Snap Compliance, Costa Rica",
+      },
+      {
+        time: "11:00",
+        title:
+          "Gobernanza de Ciberseguridad para la Alta Dirección: de ISO 27001 y COBIT al tablero ejecutivo",
+        desc: "Ing. Luis Morel, CISA, República Dominicana",
+      },
+      {
+        time: "12:00",
+        title:
+          "Prevención legal estratégica y gobernanza empresarial en la era de los desafíos globales",
+        desc: "Gustavo De los Santos Coll, República Dominicana",
+      },
+      {
+        time: "01:00 pm",
+        title: "Clausura y brindis",
+        desc: "Reconocimientos y anuncio de próximos pasos",
+      },
+      {
+        time: "01:30 pm",
+        title: "Almuerzo",
+        desc: "Networking libre",
+      },
     ],
   },
   {
@@ -187,9 +287,21 @@ const agenda = [
     date: "29 de Marzo",
     title: "Día Libre y Salidas",
     events: [
-      { time: "Mañana", title: "Día libre", desc: "Playa y reuniones 1:1" },
-      { time: "12:00 pm", title: "Entrega de habitaciones", desc: "" },
-      { time: "2:00 pm", title: "Almuerzo y Salida", desc: "" },
+      {
+        time: "Mañana",
+        title: "Mañana libre",
+        desc: "Playa / reuniones 1:1",
+      },
+      {
+        time: "12:00 pm",
+        title: "Entrega habitaciones",
+        desc: "",
+      },
+      {
+        time: "2:00 pm",
+        title: "Almuerzo y salida",
+        desc: "",
+      },
     ],
   },
 ];
