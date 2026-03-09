@@ -130,14 +130,14 @@ const speakers: Speaker[] = [
     name: "Katia Morales",
     country: "República Dominicana",
     topic:
-      "Confianza Empresarial en la Era Digital: Compliance, IA y Transparencia como Ejes Estratégicos",
+      "Confianza Empresarial",
     linkedin: "https://www.linkedin.com/in/username",
   },
   {
     name: "Gustavo A. de los Santos Coll",
     country: "República Dominicana",
     topic:
-      "Prevención legal estratégica y gobernanza empresarial en la era de los desafíos globales",
+      "Prevención legal estratégica",
     linkedin: "https://www.linkedin.com/in/username",
   },
 ];
